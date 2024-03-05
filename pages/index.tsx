@@ -3,6 +3,11 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { RiArrowRightDoubleLine } from "react-icons/ri";
+import TrendingCoins from "@/components/TrendingCoins";
+import axios from "axios";
+import { AiFillExclamationCircle } from "react-icons/ai";
+
+import Senti from "@/components/Sentiment";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +23,8 @@ export default function Home() {
         <div className="mt-4">Bitcoin</div>
       </div>
       <div className="grid grid-cols-9 h-screen w-screen">
-        <div className="col-span-6 border-r-2 border-slate-950">
-          <div className="w-200 h-200 bg-white rounded-xl ml-3 mr-3">
+        <div className="col-span-6">
+          <div className="w-200 h-200 bg-white rounded-xl ml-14 mr-3">
             <Image
               src="/btcchart.png"
               alt="Logo"
@@ -28,7 +33,18 @@ export default function Home() {
               className="mt-4"
             />
           </div>
+          <div className="ml-12 mr-3">
+            <Image
+              src="/performance.png"
+              alt="Logo"
+              width={900}
+              height={900}
+              className="mt-4"
+            />
+          </div>
+          <Senti />
         </div>
+        {/* right side portion */}
         <div className="col-span-3 mt-4">
           <div className="flex flex-col items-center justify-center w-200 h-200 bg-blue-700 rounded-3xl mx-auto mr-3 ml-3">
             <h1 className="text-center text-white font-bold mt-14">
@@ -53,14 +69,7 @@ export default function Home() {
               </div>
             </button>
           </div>
-          <div className="w-200 h-200 bg-white rounded-xl ml-3 mr-3 mt-4">
-            <h1 className="font-bold text-lg ml-4">Trending Coins (24h)</h1>
-            <ul className="ml-4">
-              <li>Ethereum</li>
-              <li>Ethereum</li>
-              <li>Ethereum</li>
-            </ul>
-          </div>
+          <TrendingCoins />
         </div>
       </div>
     </div>

@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { RiArrowRightDoubleLine } from "react-icons/ri";
 
 export default function Navbar() {
   return (
@@ -19,7 +17,7 @@ export default function Navbar() {
           <li className="mr-5">Free Tools</li>
           <li className="mr-5">Resource Center</li>
         </ul>
-        <button className="get-started-button bg-blue-500 text-white px-4 py-2 rounded">
+        <button className="get-started-button bg-blue-700 text-white px-4 py-2 rounded-lg">
           Get Started
         </button>
       </nav>
