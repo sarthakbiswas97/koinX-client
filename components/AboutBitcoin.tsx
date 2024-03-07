@@ -7,7 +7,7 @@ export default function AboutBitcoin() {
       <div className="w-700 h-700 bg-white rounded-xl mt-4 ml-14 mr-3">
         <div className="m-4">
           <h1 className="font-semibold text-2xl">About Bitcoin</h1>
-          <h1 className="font-semibold text-xl mt-4">What Is Bitcoin ?</h1>
+          <h1 className="font-semibold text-xl mt-4">What Is Bitcoin &quot;?</h1>
           <p className="mt-2 border-slate-200 border-b-2">
             Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to
             act as money and a form of payment outside the control of any one
