@@ -7,51 +7,44 @@ export default function AboutBitcoin() {
       <div className="w-700 h-700 bg-white rounded-xl mt-4 ml-14 mr-3">
         <div className="m-4">
           <h1 className="font-semibold text-2xl">About Bitcoin</h1>
-          <h1 className="font-semibold text-xl mt-4">What Is Bitcoin &quot;?</h1>
+          <h1 className="font-semibold text-xl mt-4">What Is Bitcoin ?</h1>
           <p className="mt-2 border-slate-200 border-b-2">
-            Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to
+            Bitcoin (BTC) is a cryptocurrency a virtual currency designed to
             act as money and a form of payment outside the control of any one
-            person, group, or entity, thus removing the need for third-party
-            involvement in financial transactions. It is rewarded to blockchain
+            person group or entity thus removing the need for third-party
+            involvement in financial transactions It is rewarded to blockchain
             miners for verifying transactions and can be purchased on several
-            exchanges.
+            exchanges
           </p>
           <h1 className="font-semibold text-xl mt-4">
             The standard Lorem Ipsum passage
           </h1>
           <p className="mt-2">
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-            pariatur?"
+            dicta sunt explicabo Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est
+            qui dolorem ipsum quia dolor sit amet consectetur adipisci velit
           </p>
           <p className="mt-2">
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium totam rem aperiam eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+            dicta sunt explicaboNemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est
+            qui dolorem ipsum quia dolor sit amet consectetur adipisci velit
           </p>
           <p className="mt-2 border-slate-200 border-b-2">
-            "But I must explain to you how all this mistaken idea of denouncing
+            But I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness. No one
-            rejects, dislikes, or avoids pleasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremely painful.
+            account of the system and expound the actual teachings of the great
+            explorer of the truth the master-builder of human happiness No one
+            rejects dislikes or avoids pleasure itself because it is
+            pleasure but because those who do not know how to pursue pleasure
+            rationally encounter consequences that are extremely painful
           </p>
           <h1 className="font-semibold text-2xl mb-5 mt-5">Already Holding Bitcoin ?</h1>
           <div className="display flex gap-8">
@@ -109,8 +102,8 @@ export default function AboutBitcoin() {
           <div className="mt-7 border-t-2">
           But I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness.
+            account of the system and expound the actual teachings of the great
+            explorer of the truth the master-builder of human happiness
           </div>
         </div>
       </div>
