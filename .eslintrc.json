@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Add or override rules here
+    "your-custom-rule": "off"
+  }
 }
