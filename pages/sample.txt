@@ -1,0 +1,46 @@
+{
+    "coins": [{
+        "item": {
+            "id": "opulous",
+            "coin_id": 16548,
+            "name": "Opulous",
+            "symbol": "OPUL",
+            "market_cap_rank": 697,
+            "thumb": "https://assets.coingecko.com/coins/images/16548/standard/opulous.PNG?1696516110",
+            "small": "https://assets.coingecko.com/coins/images/16548/small/opulous.PNG?1696516110",
+            "large": "https://assets.coingecko.com/coins/images/16548/large/opulous.PNG?1696516110",
+            "slug": "opulous",
+            "price_btc": 1.97618229837269e-06,
+            "score": 0,
+            "data": {
+                "price": "$0.1307",
+                "price_btc": "0.00000197618229837269",
+                "price_change_percentage_24h": {
+                    "inr": 20.5722239477191,
+                    "usd": 20.740000242628177,
+                },
+                "market_cap": "$53,218,371",
+                "market_cap_btc": "804.689972559711",
+                "total_volume": "$2,807,892",
+                "total_volume_btc": "42.4582935265429",
+                "sparkline": "https://www.coingecko.com/coins/16548/sparkline.svg",
+                "content": null
+            }
+        }
+    }
+    }]
+}
+
+<div>
+      <div className="w-200 h-200 bg-white rounded-xl ml-14 mr-3 mt-5">
+        
+      </div>
+    </div>
+
+    <Image
+          src="/Logo.svg"
+          alt="Logo"
+          width={70}
+          height={70}
+          className="ml-11"
+        />
