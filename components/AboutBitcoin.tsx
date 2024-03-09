@@ -84,7 +84,6 @@ export default function AboutBitcoin() {
                   className="rounded-lg"
                 />
               </div>
-
               <div className="mt-2 ml-2">
                 <h1 className="font-semibold text-white text-2xl">
                   Calculate your tax liability
